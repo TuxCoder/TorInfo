@@ -1,0 +1,30 @@
+{
+  "name": "tuxcoder/tor_info",
+  "type": "library",
+  "description": "Tor Info service for PHP, get tor relevant information about a ip",
+  "keywords": [
+    "tor"
+  ],
+  "homepage": "https://github.com/TuxCoder/TorInfoBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Norbert Summer",
+      "email": "git@o-g.at",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "marc-mabe/php-enum": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "doctrine/cache": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "TuxCoder\\": "src/"
+    }
+  }
+}

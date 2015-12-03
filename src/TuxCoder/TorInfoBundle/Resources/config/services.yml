@@ -1,0 +1,6 @@
+
+
+services:
+    tuxcoder.tor_info:
+        class:     TuxCoder\TorInfoBundle\TorInfo
+        arguments: []
